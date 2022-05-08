@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(191, 248, 191);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+
+}
+
+
+
+
+#submitAnswer {
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
