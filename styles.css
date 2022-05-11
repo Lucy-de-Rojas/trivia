@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "rabit";
+    src: url('FONTS/KingRabbit.otf');
+}
+
+
+
+
 body {
     background-color: rgb(191, 248, 191);
     padding: 0;
@@ -13,6 +21,70 @@ body {
 
 }
 
+h1 {
+    font-family: rabit;
+    font-size: 3.5em;
+}
+
+
+
+
+
+
+
+h2 {
+    font-family: rabit;
+    font-size: 2.5em;
+}
+
+
+#progress {
+    color: red;
+}
+
+
+
+#progressBar {
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+/* #progressBar :nth-child(1) {
+    background-color: red;
+}
+
+#progressBar :nth-child(2) {
+    background-color: green;
+} */
+
+
+.bar {
+    box-sizing: border-box;
+    width: 10%;
+    margin: 0 1px;
+    height: 20px;
+    background-color: rgb(146, 146, 146);
+
+    /* border: solid red 0.1px; */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -24,8 +96,49 @@ body {
 
 
 
+#options {
+    
+}
 
 
+
+
+
+
+
+
+#score {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(236, 204, 204);
+    
+
+
+}
+
+
+
+
+.scoreTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+
+    /* background-color: yellow; */
+} 
+
+
+#correct, #incorrect {
+    margin: 20px;
+    font-size: 2em;
+
+}
 
 
 
