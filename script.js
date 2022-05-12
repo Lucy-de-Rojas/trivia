@@ -269,7 +269,7 @@ function getPlayerAnswer() {
             // alert(`Correct!`);
             outcome.innerHTML = 'Correct!';
             score.correct++;
-            progressBarDATA.push('green');
+            progressBarDATA.push(correctColor);
 
         }
         else {
@@ -277,7 +277,7 @@ function getPlayerAnswer() {
             // alert(`Ouch! Incorrect this time. Correct answer was: ${correctAnswer}.`);
             outcome.innerHTML = `Ouch! Incorrect this time. Correct answer was: ${correctAnwer}.`;
             score.incorrect++;
-            progressBarDATA.push('red');
+            progressBarDATA.push(incorrectColor);
 
 
         }

@@ -1,10 +1,14 @@
 
-// let progressBarDATA = [];
 let progressBarDATA = [];
 
 
+let incorrectColor = "rgb(248, 136, 136)";
+let correctColor = "rgb(103, 250, 116)";
 
 
+
+// let correctColor = "green";
+// let incorrectColor = "red";
 
 
 
